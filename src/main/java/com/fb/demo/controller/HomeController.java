@@ -29,7 +29,7 @@ public class HomeController {
 	TelenorRegisterRepository telenorRegisterRepository;
 	@Autowired
 	UsersRepository usersRepository;
-	@RequestMapping("/home")
+	@RequestMapping("/")
 	public String Home() {
 		return "home";
 	}
